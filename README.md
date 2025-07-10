@@ -2,7 +2,7 @@
 # bitchat
 
 > [!WARNING]
-> This software has not received external security review and may contain vulnerabilities and does not necessarily meet its stated security goals. Do not use it for production use, and do not rely on its security whatsoever until it has been reviewed. Work in progress.
+> This software has not received external security review and may contain vulnerabilities and may not necessarily meet its stated security goals. Do not use it for sensitive use cases, and do not rely on its security until it has been reviewed. Work in progress.
 
 A secure, decentralized, peer-to-peer messaging app that works over Bluetooth mesh networks. No internet required, no servers, no phone numbers - just pure encrypted communication.
 
@@ -157,3 +157,8 @@ The protocol is designed to be platform-agnostic. An Android client can be built
 - Bluetooth LE APIs
 - Same packet structure and encryption
 - Compatible service/characteristic UUIDs
+
+## MacOS
+
+Want to try this on macos: `just run` will set it up and run from source. 
+Run `just clean` afterwards to restore things to original state for mobile app building and development.
